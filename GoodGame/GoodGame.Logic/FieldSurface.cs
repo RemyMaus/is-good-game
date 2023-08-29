@@ -12,7 +12,9 @@ namespace GoodGame.Logic
                 Card card = new Card();
                 Cards.Add(card);
             }
+            RemainingAttempts = 3;
         }
         public List<Card> Cards { get; }
+        public int RemainingAttempts { get; set; }
     }
 }
