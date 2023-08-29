@@ -2,12 +2,12 @@
 
 namespace GoodGame.Logic
 {
-  public class Class1
+  public class Card
   {
-    public int IsGoodInt { get; set; }
-    public Class1()
+    public bool IsSelected { get; set; }
+    public Card()
     {
-      IsGoodInt = 69;
+      IsSelected = false;
     }
   }
 }
