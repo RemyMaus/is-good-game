@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodGame.Logic", "GoodGame.Logic\GoodGame.Logic.csproj", "{2966DB8A-30FD-416E-87A8-69719B7F8FE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodGame.Logic", "GoodGame.Logic\GoodGame.Logic.csproj", "{2966DB8A-30FD-416E-87A8-69719B7F8FE8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodGame.Console", "GoodGame.Console\GoodGame.Console.csproj", "{DA3FC706-8340-4B2D-B28F-B843A765D335}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodGame.Console", "GoodGame.Console\GoodGame.Console.csproj", "{DA3FC706-8340-4B2D-B28F-B843A765D335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodGame.App", "GoodGame.App\GoodGame.App.csproj", "{D4894DBD-E3A9-48B0-B61C-AC832323CAAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{DA3FC706-8340-4B2D-B28F-B843A765D335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA3FC706-8340-4B2D-B28F-B843A765D335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA3FC706-8340-4B2D-B28F-B843A765D335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4894DBD-E3A9-48B0-B61C-AC832323CAAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4894DBD-E3A9-48B0-B61C-AC832323CAAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4894DBD-E3A9-48B0-B61C-AC832323CAAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4894DBD-E3A9-48B0-B61C-AC832323CAAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
